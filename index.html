@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="question-container">
+        <h1>Will you be my Valentine? 💕</h1>
+        <div class="buttons">
+            <button id="yes-btn" class="btn yes-btn">Yes! 💖</button>
+            <button id="no-btn" class="btn no-btn">No</button>
+        </div>
+    </div>
+
+    <div class="flowers-container" id="flowers-container">
+        <div class="success-content">
+            <img src="photo.jpg" alt="Photo" class="photo" id="photo">
+            <h1 class="success-message">Yay! Happy Valentine's Day! 🌹💕</h1>
+            
+            <!-- Photo Gallery Button -->
+            <button class="gallery-btn" id="gallery-btn">See More Photos 📸</button>
+            
+            <!-- Envelope Animation -->
+            <div class="envelope-wrapper" id="envelope-wrapper">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-body"></div>
+                    <div class="letter" id="letter">
+                        <button class="close-btn" id="close-letter">✕</button>
+                        <div class="letter-content">
+                            <h2>💕 Para sa'yo 💕</h2>
+                            <p>Salamat sa pagpili ng "Yes"! 🥰</p>
+                            <p>Ikaw ang nagpapasaya ng araw ko. Every moment with you feels like magic. ✨</p>
+                            <p>You make my heart smile in ways I never knew possible. 💖</p>
+                            <p>I'm so lucky to have you as my Valentine! 🌹</p>
+                            <p class="signature">- Your Forever Valentine 💕</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Photo Gallery Modal -->
+        <div class="gallery-modal" id="gallery-modal">
+            <div class="gallery-content">
+                <button class="close-btn gallery-close" id="close-gallery">✕</button>
+                <h2 class="gallery-title">Our Beautiful Moments 💕</h2>
+                <div class="photo-grid">
+                    <div class="gallery-photo"><img src="photo.jpg" alt="Photo 1"></div>
+                    <div class="gallery-photo"><img src="photo (2).jpg" alt="Photo 2"></div>
+                    <div class="gallery-photo"><img src="photo (3).jpg" alt="Photo 3"></div>
+                    <div class="gallery-photo"><img src="photo (4).jpg" alt="Photo 4"></div>
+                    <div class="gallery-photo"><img src="photo (5).jpg" alt="Photo 5"></div>
+                    <div class="gallery-photo"><img src="photo (6).jpg" alt="Photo 6"></div>
+                    <div class="gallery-photo"><img src="photo (7).jpg" alt="Photo 7"></div>
+                    <div class="gallery-photo"><img src="photo (8).jpg" alt="Photo 8"></div>
+                    <div class="gallery-photo"><img src="photo (9).jpg" alt="Photo 9"></div>
+                    <div class="gallery-photo"><img src="photo (10).jpg" alt="Photo 10"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flowers">
+        <div class="flowers">
+            <div class="flower" style="--delay: 0s; --x: 20%">🌹</div>
+            <div class="flower" style="--delay: 0.2s; --x: 40%">🌺</div>
+            <div class="flower" style="--delay: 0.4s; --x: 60%">🌸</div>
+            <div class="flower" style="--delay: 0.6s; --x: 80%">🌷</div>
+            <div class="flower" style="--delay: 0.8s; --x: 30%">💐</div>
+            <div class="flower" style="--delay: 1s; --x: 70%">🌻</div>
+            <div class="flower" style="--delay: 1.2s; --x: 50%">🌹</div>
+            <div class="flower" style="--delay: 1.4s; --x: 90%">🌺</div>
+            <div class="flower" style="--delay: 1.6s; --x: 15%">🌸</div>
+            <div class="flower" style="--delay: 1.8s; --x: 85%">🌷</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
